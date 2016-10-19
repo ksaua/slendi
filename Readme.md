@@ -9,8 +9,8 @@ Slendi will automatically fetch certificates for the specified domains using Let
 # Using as a reverse proxy
 Create a Dockerfile like so:
 
-    FROM yalendi
-    ADD config.json /etc/yalendi/config.json
+    FROM slendi
+    ADD config.json /etc/slendi/config.json
 
 And a config.json like this:
 
